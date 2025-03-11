@@ -8,7 +8,7 @@ CORS(app)
 
 # Function to get PageSpeed Insights
 def get_page_speed_insights(url):
-    api_key = 'AIzaSyDDlW9ZDzIp0NecLS5BQeIeopBIJHiH7Ew'
+    api_key = '[YOUR_API_KEY]'
     endpoint = f'https://www.googleapis.com/pagespeedonline/v5/runPagespeed?url={url}&key={api_key}'
     
     try:
